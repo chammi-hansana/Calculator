@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     height: 500px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
-    background: #22252D;
+    background: linear-gradient(#746a6a, #9198e5);
     overflow: hidden;
 }
 
@@ -28,8 +29,8 @@ form input{
     border-radius: 12px;
     font-size: 2rem;
     padding: 1rem;
-    color: white;
-    background: black;
+    color: rgb(255, 255, 255);
+    background: #0e0c0cd1;
     text-align: right;
     pointer-events: none;
 }
@@ -39,6 +40,7 @@ form input{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    
 }
 
 button{
@@ -53,8 +55,8 @@ button{
     cursor: pointer;
 }
 
-.btn-yellow{
-    background: orange;
+.btn-blue{
+    background: #5561dc;
     color: white;
 }
 
@@ -63,9 +65,10 @@ button{
 }
 
 .btn-equal{
-    background: green;
+    background: rgb(70, 136, 70);
 }
 
 .btn-clear{
-    background: red;
+    background: rgb(169, 27, 27);
 }
+

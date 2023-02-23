@@ -13,7 +13,7 @@
     });
 
     equal.addEventListener('click', function(e){
-        if(screen.value == ''){
+        if(screen.value === ''){
             screen.value = "";
         }else{
             let answer = eval(screen.value);
@@ -24,5 +24,11 @@
     clear.addEventListener('click', function(e){
         screen.value = "";
     })
+
+    function blinker() {
+        $('.blink-me').fadeOut(200);
+        $('.blink-me').fadeIn(200);
+    }
+    setInterval(blinker, 500);
 
 })();
